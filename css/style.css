@@ -816,12 +816,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 #supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  /* border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa; */
   margin-bottom: 30px;
 }
 #supporters .supporter-logo {
-  padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -831,12 +830,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  /* border-top: 1px solid #e0e5fa;
   border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa; */
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
+  /* background: rgba(255, 255, 255, 0.5); */
   height: 160px;
 }
+/* #supporters .supporter-logo:first-child {
+  border-left: 1px solid #e0e5fa;
+} */
 #supporters .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
